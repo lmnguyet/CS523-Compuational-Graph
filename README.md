@@ -4,7 +4,7 @@ Nguyễn Công Nguyên - 21521200
 Lê Minh Nguyệt - 21521211
 
 # Program
-https://congnguyengithub-nguyennguyen-app-ljasqh.streamlitapp.com
+https://congnguyengithub-streamlit-app-4k1tik.streamlitapp.com/
 
 # References
 https://www.tutorialspoint.com/python_deep_learning/python_deep_learning_computational_graphs.htm
