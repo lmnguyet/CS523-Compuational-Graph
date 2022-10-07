@@ -1,10 +1,16 @@
 # Group 13
+
 Nguyễn Công Nguyên - 21521200 
 
 Lê Minh Nguyệt - 21521211
 
 # Program
+
 https://congnguyengithub-streamlit-app-4k1tik.streamlitapp.com/
+
+# Homework
+
+https://forms.gle/tgTcnNp9oBX6ov7d8
 
 # References
 https://www.tutorialspoint.com/python_deep_learning/python_deep_learning_computational_graphs.htm
