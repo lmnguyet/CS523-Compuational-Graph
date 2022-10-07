@@ -1,10 +1,27 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import json 
+import requests
+from streamlit_lottie import st_lottie
 import tensorflow as tf
-tf.compat.v1.disable_eager_execution()
-st.set_page_config(page_title="CAY NHA LA VUON")
+st.set_page_config(page_title="Awesome App")
 st.header("Predict revenue based on advertising budget")
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+lottie_hello = lottie_hello = load_lottieurl("https://assets8.lottiefiles.com/private_files/lf30_m075yjya.json")
+st_lottie(lottie_hello,key="Hello")
+tf.compat.v1.disable_eager_execution()
+tf.compat.v1.disable_eager_execution()
+with open("Manual.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+st.download_button(label="Download this program manual here",
+                    data=PDFbyte,
+                    file_name="Manual.pdf",
+                    mime='application/octet-stream')
 data_file=st.file_uploader("Input your file here ",type="xlsx")
 flag=False
 if data_file is not None :
@@ -57,4 +74,3 @@ if data_file is not None :
                 my_array=my_array.reshape(1,-1)
                 x=np.matmul(my_array,sess.run(W))+sess.run(b)
                 st.write("Revenue forecast results is "+str(x[0]))
-                
