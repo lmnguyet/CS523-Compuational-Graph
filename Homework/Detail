@@ -1,5 +1,5 @@
 Viết chương trình xây dựng hàm để dự đoán điểm cuối kỳ, dựa trên dataset là điểm giữa kỳ của một môn học với learning rate = 0,01. 
 Input (dataset) là file TRAIN2.xlxs
-Xuất ra màn hình giá trị w, b sau khi trên.
+Xuất ra màn hình giá trị w, b sau khi training.
 Deadline: 17h 20/10
 Nộp bài theo nhóm vào link google form
