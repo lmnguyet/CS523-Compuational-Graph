@@ -10,6 +10,9 @@ https://congnguyengithub-streamlit-app-4k1tik.streamlitapp.com/
 
 # Homework
 
+Deadline: 17:00 20/5
+Lưu ý: Learning rate = 0,01
+
 https://forms.gle/tgTcnNp9oBX6ov7d8
 
 # References
